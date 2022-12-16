@@ -1,0 +1,63 @@
+
+
+body {
+    margin: 0;
+    background-color: #666;
+}
+
+.header {
+    display: block;
+    background-color: #121212;
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin: None;
+    width: 100%;
+}
+
+.main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.CompanyCB {
+    display: inline;
+}
+
+.name {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.selector {
+    margin-top: 10px;
+    display: block;
+    background-color: #888;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.selector select {
+    display: none;
+  }
+
+.selector-selected {
+    background-color: rgb(221, 13, 13);
+  }
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    width: 100px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
